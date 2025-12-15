@@ -1,3 +1,12 @@
 import { Routes } from '@angular/router';
+import { HelloWorld } from './hello-world/hello-world';
 
-export const routes: Routes = [];
+export const routes: Routes = [
+  {
+    path: '',
+
+    redirectTo: 'hello-world',
+    pathMatch: 'full',
+  },
+  { path: 'hello-world', component: HelloWorld },
+];
