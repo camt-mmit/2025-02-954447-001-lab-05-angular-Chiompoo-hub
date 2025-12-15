@@ -1,0 +1,17 @@
+.status-table {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  border: 1px solid #ccc;
+}
+
+.status-table dt,
+.status-table dd {
+  padding: 8px 12px;
+  border-bottom: 1px solid #ccc;
+  margin: 0;
+}
+
+.status-table dt {
+  font-weight: bold;
+  background-color: #f5f5f5;
+}
